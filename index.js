@@ -184,3 +184,8 @@ document.querySelector("#submit").addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+// blog part--------
+const blog = () => {
+  location.href = 'blog.html'
+}
